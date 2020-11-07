@@ -1,0 +1,497 @@
+* {
+    font-family: arial, tahoma, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+    
+    }
+    
+    html{
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+    
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .web-page{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 1.4rem;
+    
+    }
+    .bgimage{
+        background-color:  rgba(128, 87, 0, 0.815);
+        width: 100%;
+        height: 100%;
+        margin-top: -5rem;
+        padding-top: 3rem;
+        z-index: 2;
+    }
+    .logo{
+        padding: 20px;
+        text-align: center;
+        margin-top: -4rem;
+        margin-bottom: 4rem;
+        border-radius: 50%;
+        }
+        .menu{
+            text-transform: uppercase;
+            text-align: center;
+            background-color: cyan;
+            position: fixed;
+            z-index: 1;
+            margin-left: 30rem;
+            margin-top: -3.2rem;
+            border: 2px solid rebeccapurple;
+            margin-bottom: 3rem;
+        
+        }
+    
+        .menu a {
+        color: black;
+        text-decoration: none;
+        margin: 5px;
+        cursor: pointer;
+        border-left: 2px solid;     
+        border-left-color: red;
+        font-size: 1.5rem;
+        }
+
+        .menu a:hover{
+            background-color: seagreen;
+        }
+    
+        .banner{
+            height: 300px;
+            margin-left: 14rem;
+            width: 120%;
+    
+        }
+    
+        .banner-text{
+            width: 40%;
+            background-color: white;
+            text-transform: initial;
+            padding: 25px;
+            margin-left: 9rem;
+            top: -20px;
+            opacity: 0.8;
+            bottom: 30px;
+    
+    
+        }
+       .item input {
+            background-color: #007bff;
+            padding: 5px;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            text-transform: lowercase;
+            margin-bottom: 60px;
+        }
+        .research-items{
+            
+            max-width: 3500px;
+            max-height: 3500px;
+            margin: 0 auto;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(105, 128, 0, 0.815);
+            border-style: solid 2px;
+            padding-top: 2rem;
+            opacity: 2;
+            
+        }
+        .research-items button{
+            cursor: pointer;
+            background-color: cornflowerblue;
+            border-radius: 20px;
+            color: cornsilk;
+        }
+        .item{
+            
+            
+            width: 100%;
+            max-width: 210px;
+            margin-left: .1rem;
+            padding: 0px 50px 0px 10px;
+            margin-bottom: 6rem;
+            max-height: 240px;
+            
+        }
+
+        .item-text{
+            width: 42rem;
+            margin-top: -8rem;
+            margin-left: 15rem;
+            border: 1px solid;
+            border-color: lightskyblue;
+            text-align: left;
+            padding-left: 1rem;
+            font-size: 1.3rem;
+        }
+    
+.about-image{
+        margin-top: -10px;
+        width: 70%;
+        float: left;
+        margin-right: 50%;
+}
+    
+.about-image img{
+    width: 63%;
+    height: 80%;
+    
+}
+.About-us{
+            text-align: center;
+}
+    
+.about-text{
+        text-transform: initial;
+        margin-right: 20px;
+        float: left;
+        margin-left: 45%;
+        text-align: justify;
+        margin-top: -30%;
+        padding-top: -40%;
+        background-color: white;
+    
+    
+}
+.landingtext {
+        color: black;
+        text-align: center;
+        margin-left: -38rem;
+        margin-top: 2rem;
+}
+.Subscribe{
+        width: 100%;
+        height: 8%;
+        background-color: magenta;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 15px;
+        text-transform: initial;
+    
+}
+.Subscribe h3{
+        padding-bottom: 20px;
+    
+}
+.Subscribe input{
+        padding: 10px;
+        border-radius: 5px;
+        border:none;
+        width: 20%;
+    
+}
+.Subscribe button{
+        font-size: .8rem;
+        border-radius: 20px;
+        background-color: lightblue;
+        cursor: pointer;
+    
+}
+        footer{
+            width: 100%;
+    /*margin-top: -2px;*/
+    
+        }
+        footer .menu a{
+            color: grey;
+    font-size: 18px;
+    text-transform: initial;
+    
+        }
+        .copyright{
+            width: 100%;
+            padding:10px;
+            border:1px solid #eee;
+            text-align: center;
+            text-transform: initial;
+            background-color: white;
+    
+        }
+
+
+
+        
+
+        .login_singup a{
+            margin-left: 12rem;
+            text-decoration: none;
+        }
+        
+        .feedback textarea{
+            width: 40%;
+            border: 1px solid cyan;
+            height: 200px;
+            padding-left: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .feedback input{
+            width: 30%;
+            height: 2.4rem;
+            font-size: 1.2rem;
+        }
+
+        .feedback{
+            margin-left: 20%;
+    
+        }
+
+        .feedback button{
+            background-color: #00e5ff;
+        }
+
+        .showless{
+           display: none;
+            
+        }
+
+        .fullpage{
+            background-color: rgb(236, 242, 238);
+           
+        }
+        #cropcategory{
+            width:14rem;
+            font-size: 1.5rem;
+            padding-left: 2rem;
+        }
+        
+
+
+
+        /* start of the admin panel */
+        
+        .adminform textarea{
+            width: 80rem;
+            height: 600px;
+            font-size: 1.3rem;
+            padding-left: 1rem;
+            padding-top: 1rem;
+            text-indent: 1rem;
+        }
+        .cropresearches{
+            border-radius: solid 25px;
+            border-color: black;
+        }
+        .adminform input{
+            width: 18rem; height: 2rem; color: violet; 
+        }
+
+        .adminlandingtext{
+            
+            text-align: center;
+        }
+
+        .adminfieldset{
+            margin-left: 8rem;
+        }
+
+        /* end of the admin panel */
+        .display{
+            background-color: aquamarine;
+        }
+
+        .logout input{
+            border-radius: 20px;
+        }
+        .logout input:hover{
+            background-color: deeppink;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+    @media screen and (max-width: 600px) {
+        
+
+        .menulinks{
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            background-color: cyan;
+            position: fixed;
+            z-index: 1;
+            margin-left: 7rem;
+            margin-top: -2.8rem;
+            border: 2px solid rebeccapurple;
+            
+        
+        }
+        .adminform{
+            margin-left: 0rem;
+            width: 2rem;
+        }
+        .cropresearches{
+            border-radius: solid 25px;
+            border-color: black;
+            text-decoration: underline;
+        }
+        .adminform textarea{
+            width: 21rem;
+            height: 400px;
+            font-size: 1.3rem;
+            padding-left: 1rem;
+            padding-top: 1rem;
+            text-indent: 1rem;
+        }
+
+        .adminform input{
+            width: 12rem; 
+            height: 2rem; 
+            color: violet; 
+            border-radius: 20px;
+        }
+        #cropcategory{
+            font-size: 1.4rem;
+            color: rgb(33, 129, 56);
+            text-decoration: underline;
+            border-radius: solid 25px;
+            border-color: black;
+            text-decoration: underline;
+        }
+        .submitcontent{
+            text-align: left;
+            margin-left: -14rem;
+        }
+        .adminlandingtext{
+            
+            text-align: center;
+            padding-top: 3.4rem;
+        }
+
+        .adminfieldset{
+            margin-left: 1rem;
+            width: 2rem;
+        }
+
+        .mainContent{
+                display:initial;
+        }
+        .landingtext{
+                margin-left: -12rem;
+                font-size: 1rem;
+                width: 4rem;
+            }
+
+        .bannertext{
+            width: 24rem;
+            margin-left: -13rem;
+        }
+        .item{
+            
+            display: block;
+            width: 100%;
+            max-width: 160px;
+            margin-left: -.1rem;
+            padding: 40px 50px 0px 10px;
+            margin-bottom: 6rem;
+            max-height: 380px;
+            
+        }
+
+        .item-text{
+            width: 43rem;
+            margin-top: -9rem;
+            margin-left: 4rem;
+            border: 1px solid;
+            border-color: lightskyblue;
+            text-align: left;
+            font-size: 1rem;
+            padding-left: 1rem;
+        }
+        #research-items{
+          
+            max-width: 5900px;
+            height: 1580px;
+            margin: 0 auto;
+            padding: 20px;
+            width: 95%;
+            margin-top: 7rem;
+            text-align: center;
+            background-color: rgba(105, 128, 0, 0.815);
+            border-style: solid 2px;
+        }
+        #dropbtn{
+            background-color: #df6337;
+            color: white;
+            padding: 16px;
+            font-size: 11px;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            margin-top: -2.8rem;
+            box-shadow:10px 10px 5px cyan;
+            position: fixed;
+            z-index: 2;
+            margin-left: 15rem;
+        }
+
+        .dropdown:hover .dropbtn{
+            background-color: #3e8e41;
+        
+        
+        }
+        #dropdown{
+            position: fixed;
+            z-index: 2;
+            display: inline-block;
+            top: 5rem;
+            margin-left: -10rem;
+            width: 100%;
+            height: 20px;
+        
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: #cfc912f7;
+            min-width: 40%;
+            left: 17rem;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding-top: 2rem;
+            padding-right: 2rem;
+            z-index: 1;
+            
+        }
+        
+        .dropdown-content a {
+            color:magenta;
+            padding: 12px 12px;
+            text-decoration: none;
+            display: block;
+            background-color:blue;
+            border:2px dashed;
+            border-color: red;
+            
+            
+        }
+
+
+
+    
+        }
+        @media screen and (max-width: 5100px) {
+            .banner-text{
+            width: 30%;
+            left: 20px;
+            top: 10px;
+    
+        }
+        .Subscribe input{
+            width: 40%;
+    
+        }
+        
+    
+        
+        
+    }
